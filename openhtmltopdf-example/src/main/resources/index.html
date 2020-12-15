@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo de oficio</title>
+        <style> 
+            table { 
+                border-collapse: collapse;
+                width:100%;
+            }
+
+            table, tr, td { 
+                border: 1px solid black; 
+            } 
+        </style>
+    </head>
+    <body>
+
+        <div style="text-align: right;">
+            <p><b>OFICIO N°: #OFICIO#-OF</b></p>
+            <p>Quito, #FECHA#</p>
+        </div>
+
+        <div>
+            <p>Señor,<br/>
+                Ingeniero<br/>
+                Peter Benjamin Parker<br/>
+                <b>Director Ejecutivo</b><br/>
+                <b>INDUSTRIAS PARKER, INC</b></p>
+        </div>
+
+        <br />
+
+        <div>
+            <p>De mi consideración:</p>
+            <p>Yo, #NOMBRE# con número de cédula #CEDULA#, solicito muy comedidamente información  referente a #DESCRIPCION#</p>
+            <p>El motivo del requerimiento es: #MOTIVO#</p>
+        </div>
+
+        <br />
+
+        <div>
+            <p><i>En caso de autorizar a un tercero para realizar el trámite:</i></p>
+            <p>Autorizo al señor/a #NOMBRE_TERCERO# con número de cédula #CEDULA_TERCERO# a realizar los trámites pertinentes para la obtención de lo solicitado.</p>
+        </div>
+
+        <br/>
+
+        <div>
+            <p>Por la atención brindada a la presente, anticipo mis agradecimientos.</p>
+            <br/>
+            <p>Atentamente,</p>
+            <table>
+                <tr>
+                    <td style="width:20%">Nombre:</td>
+                    <td style="width:80%">#NOMBRE#</td>
+                </tr>
+                <tr>
+                    <td>N° de Cédula:</td>
+                    <td>#CEDULA#</td>
+                </tr>
+                <tr>
+                    <td>N° Convencional:</td>
+                    <td>#TELEFONO_FIJO#</td>
+                </tr>
+                <tr>
+                    <td>Celular:</td>
+                    <td>#TELEFONO_MOVIL#</td>
+                </tr>
+                <tr>
+                    <td>Correo electrónico:</td>
+                    <td>#CORREO#</td>
+                </tr>
+            </table> 
+        </div>
+
+        <br/>
+
+        <div>
+            <p>Adjunto: <i>(de acuerdo a necesidad adjunta copia de documentos)</i></p>
+            #DOCUMENTOS_ADJUNTOS#
+            <!--<ul>
+                <li>Copia de cédula solicitante (  )</li>
+                <li>Copia de cédula delegado (  )</li>
+            </ul>-->
+        </div>
+
+    </body>
+</html>
